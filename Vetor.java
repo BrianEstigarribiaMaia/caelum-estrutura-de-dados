@@ -1,9 +1,7 @@
-package br.com.caelum.ed;
 
 public class Vetor {
 
 	private Object [] objetos = new Object [100];
-	
 	private int totalDeObjetos = 0;
 	
 	public void adicionar(Object objeto){
@@ -15,7 +13,7 @@ public class Vetor {
 	public void adicionarNaPosicao(int posicao, Aluno aluno){
 		this.garantirEspaco();
 		if(!this.posicaoValida(posicao)){
-			throw new IllegalArgumentException("Posição Invalida");
+			throw new IllegalArgumentException("PosiÃ§Ã£o Invalida");
 		}
 		for(int i = this.totalDeObjetos - 1; i >= posicao; i --){
 			this.objetos[i + 1] = this.objetos[i];
@@ -26,14 +24,14 @@ public class Vetor {
 	
 	public Object pegar(int posicao){
 		if(!this.posicaoOcupada(posicao)){
-			throw new IllegalArgumentException("Posição Invalida");
+			throw new IllegalArgumentException("PosiÃ§Ã£o Invalida");
 		}
 		return this.objetos[posicao];
 	}
 	
 	public void remover(int posicao){
 		if(!this.posicaoOcupada(posicao)){
-			throw new IllegalArgumentException("Posição Invalida");
+			throw new IllegalArgumentException("PosiÃ§Ã£o Invalida");
 		}
 		
 		for(int i = posicao; i < this.totalDeObjetos - 1; i++){
