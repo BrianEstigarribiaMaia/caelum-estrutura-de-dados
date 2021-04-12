@@ -1,4 +1,3 @@
-package br.com.caelum.ed;
 
 public class ExecutaVetor {
 
@@ -9,7 +8,7 @@ public class ExecutaVetor {
 		Aluno aluno3 = new Aluno();
 		
 		aluno1.setNome("Marcos");
-		aluno2.setNome("RogÈrio");
+		aluno2.setNome("Rog√©rio");
 		aluno3.setNome("Clemer");
 		
 		Vetor lista = new Vetor();
@@ -18,16 +17,14 @@ public class ExecutaVetor {
 		
 		System.out.println("Lista de alunos:  "+lista);
 		System.out.println("Quantidade de Alunos na lista "+lista.tamanho());
-		System.out.println("Aluno Marcos est· na lista ? : "+lista.contem(aluno1));
-		System.out.println("Mostrando aluno na primeira posiÁ„o: "+lista.pegar(0));
+		System.out.println("Aluno Marcos est√° na lista ? : "+lista.contem(aluno1));
+		System.out.println("Mostrando aluno na primeira posi√ß√£o: "+lista.pegar(0));
 		
 		lista.adicionarNaPosicao(0, aluno3);
-		System.out.println("Aluno Clemer adicionado na primeira posiÁ„o: "+lista);
+		System.out.println("Aluno Clemer adicionado na primeira posi√ß√£o: "+lista);
 		System.out.println("Quantidade de Alunos na lista "+lista.tamanho());
-		System.out.println("Mostrando aluno na primeira posiÁ„o: "+lista.pegar(0));
+		System.out.println("Mostrando aluno na primeira posi√ß√£o: "+lista.pegar(0));
 		lista.remover(2);
 		System.out.println("Remover aluno Rogerio da lista: "+lista);
-		
 	}
-
 }
