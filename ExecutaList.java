@@ -1,5 +1,3 @@
-package br.com.caelum.ed;
-
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -30,14 +28,13 @@ public class ExecutaList {
 		}
 		
 		System.out.println("Quantidade de Alunos na lista "+lista.size());
-		System.out.println("Aluno Brian est· na lista ? : "+lista.contains(brian));
-		System.out.println("Mostrando aluno na primeira posiÁ„o: "+lista.get(0));
+		System.out.println("Aluno Brian est√° na lista ? : "+lista.contains(brian));
+		System.out.println("Mostrando aluno na primeira posi√ß√£o: "+lista.get(0));
 		
 		lista.add(0, eduardo);
 		
 		System.out.println("Remover aluno Juca da lista: "+lista.remove(3));
 		System.out.println("Lista de alunos:  "+lista);
 		
-	
 	}
 }
