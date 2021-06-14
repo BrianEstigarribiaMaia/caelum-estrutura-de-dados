@@ -7,8 +7,8 @@ public class TesteAdicionar {
 	public static void main(String[] args) {
 		ListaEncadeada lista1 = new ListaEncadeada();
 		lista1.adicionarNoComeco("Brian");
-		lista1.adicionarNoComeco("Kévin");
-		System.out.println("Adicionar no começo: ");
+		lista1.adicionarNoComeco("KÃ©vin");
+		System.out.println("Adicionar no comeÃ§o: ");
 		System.out.println(lista1);
 		
 		ListaEncadeada lista2 = new ListaEncadeada();
@@ -21,7 +21,7 @@ public class TesteAdicionar {
 		lista3.adicionar("Inuyasha");
 		lista3.adicionarNaPosicao(0, "Sesshumarou");
 		lista3.adicionarNaPosicao(2, "Rin");
-		System.out.println("Adicionar na posição: ");
+		System.out.println("Adicionar na posiÃ§Ã£o: ");
 		System.out.println(lista3);
 
 	}
