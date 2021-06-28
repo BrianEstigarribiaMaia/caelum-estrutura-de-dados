@@ -16,7 +16,7 @@ public class TesteFila {
 		fila.remover();
 		
 		if(fila.vazia()){
-			System.out.println("A fila est· vazia");
+			System.out.println("A fila est√° vazia");
 		}else{
 			System.out.println("A fila contem elementos");
 		}
