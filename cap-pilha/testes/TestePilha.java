@@ -17,7 +17,7 @@ public class TestePilha {
 		pilha.remover();
 		
 		if(pilha.vazia()){
-			System.out.println("A pilha est· vazia");
+			System.out.println("A pilha est√° vazia");
 		}else{
 			System.out.println("A pilha contem elementos");
 		}
